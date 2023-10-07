@@ -1,0 +1,94 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h1.titulo{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* Estilo do CABEÇALHO */
+header{
+    padding: 20px 4%;
+    background-color: black;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header a{
+   color: #5c5c5c; 
+   text-decoration: none;
+   display: inline-block;
+   transition: .2s;
+}
+
+header a:hover{
+    color: #ffffff;
+    transform: scale(1.10);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header button{
+    width: 150px;
+    height: 50px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: aqua;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: .2s;
+}
+
+
+header button:hover{
+    box-shadow: 0px 0px 8px #00ffff;
+}
+
+div especialidades-box{
+    font-size: 100px;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: rgb(#363636);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 15px;
+    background-color: aqua;
+    border-radius: 50px;
+    border: 2px solid #00a2ff;
+}
